@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  line-height: 1.65;
+  min-height: 1800px;
+  font-family: 'lora', serif;
+  background-image: url('../img/back.jpg');
+}
+section {
+  min-height: 600px;
+  width: 1000px;
+  margin: 80px auto;
+  box-sizing: border-box;
+}
+/* navbar */
+nav {
+  height: 80px;
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav ul {
+  width: 50%;
+  display: flex;
+
+  list-style: none;
+  justify-content: space-evenly;
+  margin-right: 40px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+.nav .logo {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Pacifico', cursive;
+}
+/* header */
+
+.profile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+.bungkus-gambar {
+  border: 5px solid;
+  border-radius: 50%;
+  color: white;
+}
+.container-header {
+  margin: 150px auto;
+  width: 1000px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text {
+  text-align: center;
+}
+.text-1 {
+  padding-bottom: 15px;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding-bottom: 15px;
+}
+.cv {
+  border: 2px solid;
+  border-radius: 50px;
+  padding: 9px;
+  box-sizing: border-box;
+}
+
+.contact-info {
+  border: 2px solid;
+  border-radius: 50px;
+  padding: 9px;
+  box-sizing: border-box;
+}
+.media {
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.media img {
+  width: 20px;
+  height: 20px;
+}
+/* about */
+
+.container-about {
+  width: 1000px;
+  margin: auto;
+}
+.title-about {
+  margin-bottom: 50px;
+  height: 80px;
+  text-align: center;
+}
+.content {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.profile-content {
+  box-sizing: border-box;
+  border: 5px solid;
+  border-radius: 30px;
+  color: white;
+  margin-top: 100px;
+}
+
+.profile-content img {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 auto;
+  width: 250px;
+  height: 350px;
+  border-radius: 40px;
+}
+
+.row-1 {
+  width: 400px;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.row-1 img {
+  width: 20px;
+  height: 20px;
+}
+.kotak-1,
+.kotak-2 {
+  width: 150px;
+  height: 150px;
+}
+.kotak-1 {
+  border-radius: 30px;
+  border: 1px solid;
+}
+.kotak-2 {
+  border-radius: 30px;
+  border: 1px solid;
+}
+.kolom {
+  padding-top: 25px;
+}
+.row-2 {
+  padding: 10px;
+  padding-left: 29px;
+  width: 70%;
+  text-align: justify;
+  box-sizing: border-box;
+}
+/* experience */
+
+.title-experience {
+  height: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.row-experience {
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 800px;
+
+  display: flex;
+}
+.col-1 {
+  border: 5px solid white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.col-2 {
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+.sama {
+  width: 35%;
+}
+.component-1 {
+  padding-top: 20px;
+}
+.component-2 {
+  padding-top: 50px;
+}
+.component-1 img,
+.component-2 img {
+  width: 30px;
+  height: 30px;
+}
+/* projects */
+
+.title-projects {
+  height: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.row-projects {
+  height: 500px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.row-projects1,
+.img1 {
+  width: 250px;
+  height: 330px;
+}
+.button-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button-1 a {
+  text-decoration: none;
+  color: white;
+}
+.button-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button-2 a {
+  text-decoration: none;
+  color: white;
+}
+.button-1 img {
+  width: 30px;
+  height: 30px;
+}
+.button-2 img {
+  width: 30px;
+  height: 30px;
+}
+.col-projects1 {
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #008080;
+  border-radius: 50px;
+}
+.col-projects1 img {
+  border-radius: 50px;
+}
+.col-projects2 {
+  padding: 30px;
+  box-sizing: border-box;
+
+  border-radius: 50px;
+}
+.col-projects2 img {
+  border-radius: 50px;
+}
+.bungkus1 {
+  border-radius: 50px;
+  background-color: #008080;
+  border: 1px solid;
+}
+
+.bungkus2 {
+  border-radius: 50px;
+  background-color: #008080;
+  border: 1px solid;
+}
+h1 {
+  text-align: center;
+}
